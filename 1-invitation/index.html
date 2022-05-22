@@ -47,6 +47,11 @@
     height: auto !important;
   }
 
+  .adaptive-img-second {
+    width: 254px !important;
+    height: auto !important;
+  }
+
   .content-left,
   .content-right {
     width: 100% !important;
@@ -74,20 +79,32 @@
     padding-bottom: 48px !important;
   }
 
+  .mobile-logo-padding {
+    padding-top: 26px !important;
+  }
+
   .invitation-mobile h2 {
     font-size: 28px !important;
-    line-height: 32px !important;
+    line-height: 33px !important;
   }
 
   .invitation-mobile p,
   .invitation-mobile a {
     font-size: 16px !important;
-    line-height: 18px !important;
+    line-height: 19px !important;
+  }
+
+  .invitation-mobile-back {
+    padding-bottom: 16px !important;
   }
 
   .mobile-gift p {
     font-size: 24px !important;
     line-height: 28px !important;
+  }
+
+  .invitation-mobile-padding {
+    padding-bottom: 16px !important;
   }
 
   .content-body {
@@ -99,6 +116,22 @@
   .invitation-link {
     padding-left: 41px !important;
     padding-right: 41px !important;
+  }
+
+  .blue-mobile-padding {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+  }
+
+  .blue-mobile-text {
+    padding-bottom: 24px !important;
+  }
+
+  .blue-mobile-img {
+    padding-right: 19px !important;
+    vertical-align: top !important;
+    padding-top: 5px !important;
+    padding-bottom: 16px !important;
   }
 }
 </style>
@@ -146,7 +179,7 @@
                     <td>
                       <table bgcolor="#ffffff" border="0" width:"100%" class="content-body" align="center" cellpadding="0" cellspacing="0" style="padding:0;"> <!-- таблица с логотипом -->
                         <tr>
-                          <td align="center" style="Margin:0;padding-top:33px;padding-bottom:16px;font-size:0px;">
+                          <td class="mobile-logo-padding" align="center" style="Margin:0;padding-top:32px;padding-bottom:16px;font-size:0px;">
                             <img src="https://raw.githubusercontent.com/Svetlana-K-design/169785-play-html-1/module2-task2/1-invitation/img/logo@2x.png" alt="Логотип PlayHTML" width="140" height="24" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" />
                           </td>
                         </tr>
@@ -166,7 +199,7 @@
                           </td>
                         </tr>
                         <tr>
-                          <td align="center" style="Margin:0;padding-top:16px;padding-bottom:24px;">
+                          <td class="invitation-mobile-padding" align="center" style="Margin:0;padding-top:16px;padding-bottom:24px;">
                             <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:24px;font-family:'Trebuchet MS', tahoma, 'Helvetica CY', 'DejaVu Sans', sans-serif;line-height:28px;color:#FF4B33;"><b>Приглашаем Вас на&nbsp;бесплатный&nbsp;вебинар <a title="ссылка для записи на вебинар" href="https://htmlacademy.ru/vebinar/about" target="_blank" style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:24px;font-family:'Trebuchet MS', tahoma, 'Helvetica CY', 'DejaVu Sans', sans-serif;line-height:28px;color:#FF4B33;text-decoration:none;">«Тренды&nbsp;Frontend-разработки<br/>2020»</a></b></p>
                           </td>
                         </tr>
@@ -176,7 +209,7 @@
                 </table>
 
                 <!-- блок с картинкой справа -->
-                <table cellspacing="0" width="100%" align="center" cellpadding="0" border="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:568px;padding-left:8px;padding-right:8px;padding-bottom:32px;">
+                <table class="invitation-mobile-back" ellspacing="0" width="100%" align="center" cellpadding="0" border="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:568px;padding-left:8px;padding-right:8px;padding-bottom:32px;">
                   <tr>
                     <td>
                       <table width="100%" border="0" bgcolor="#ffffff" class="content-body" cellpadding="0" cellspacing="0">
@@ -243,10 +276,10 @@
                 </table>
 
                 <!-- блок на синем фоне -->
-                <table bgcolor="#0B379B" border="0" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#0B379B;width:568px;padding-top:40px;padding-bottom:40px;">
+                <table class="blue-mobile-padding" bgcolor="#0B379B" border="0" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#0B379B;width:568px;padding-top:40px;padding-bottom:40px;">
                   <tr>
                     <td>
-                      <table width="100%" cellspacing="0" cellpadding="0" border="0" style="padding-left:16px;padding-right:16px;padding-bottom:32px;"> <!-- абзац с приглашением -->
+                      <table class="blue-mobile-text" width="100%" cellspacing="0" cellpadding="0" border="0" style="padding-left:16px;padding-right:16px;padding-bottom:32px;"> <!-- абзац с приглашением -->
                         <tr>
                           <td align="left" style="Margin:0;">
                             <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:18px;font-family:'Trebuchet MS', tahoma, 'Helvetica CY', 'DejaVu Sans', sans-serif;line-height:21px;color:#FFFFFF;">Мы расскажем все детали о том, с чего начать свой путь
@@ -264,26 +297,26 @@
                         </table>
                         <table width="100%" cellspacing="0" cellpadding="0" border="0" style="padding-left:16px;padding-right:16px;"> <!-- список с планом вебинара -->
                           <tr>
-                            <td align="left" style="Margin:0;width:25px;padding-bottom:8px;">
-                              <img src="https://raw.githubusercontent.com/Svetlana-K-design/169785-play-html-1/module2-task2/1-invitation/img/ellipse@2x.png" alt="жёлтый кружочек" width="12" height="12" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" />
+                            <td class="blue-mobile-img" align="left" style="Margin:0;padding-bottom:8px;padding-right:13px;">
+                              <img src="https://raw.githubusercontent.com/Svetlana-K-design/169785-play-html-1/module2-task2/1-invitation/img/ellipse@2x.png" alt="жёлтый кружочек" width="12" height="12" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" />
                             </td>
-                            <td align="left" style="Margin:0;padding-bottom:8px;">
+                            <td class="invitation-mobile-padding" align="left" style="Margin:0;padding-bottom:8px;">
                               <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:18px;font-family:'Trebuchet MS', tahoma, 'Helvetica CY', 'DejaVu Sans', sans-serif;line-height:21px;color:#FFFFFF;">Кто такой frontend-разработчик?</p>
                             </td>
                           </tr>
                           <tr>
-                            <td align="left" style="Margin:0;width:25px;padding-bottom:8px;">
-                              <img src="https://raw.githubusercontent.com/Svetlana-K-design/169785-play-html-1/module2-task2/1-invitation/img/polygon@2x.png" alt="голубой треугольничек" width="12" height="12" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" />
+                            <td class="blue-mobile-img" align="left" style="Margin:0;padding-bottom:8px;padding-right:13px;">
+                              <img src="https://raw.githubusercontent.com/Svetlana-K-design/169785-play-html-1/module2-task2/1-invitation/img/polygon@2x.png" alt="голубой треугольничек" width="12" height="12" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" />
                             </td>
-                            <td align="left" style="Margin:0;padding-bottom:8px;">
+                            <td class="invitation-mobile-padding" align="left" style="Margin:0;padding-bottom:8px;">
                               <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:18px;font-family:'Trebuchet MS', tahoma, 'Helvetica CY', 'DejaVu Sans', sans-serif;line-height:21px;color:#FFFFFF;">Какие навыки сейчас востребованы?</p>
                             </td>
                           </tr>
                           <tr>
-                            <td align="left" style="Margin:0;width:25px;">
-                              <img src="https://raw.githubusercontent.com/Svetlana-K-design/169785-play-html-1/module2-task2/1-invitation/img/rectangle@2x.png" alt="красный квадратик" width="12" height="12" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" />
+                            <td class="blue-mobile-img" align="left" style="Margin:0;padding-right:13px;">
+                              <img src="https://raw.githubusercontent.com/Svetlana-K-design/169785-play-html-1/module2-task2/1-invitation/img/rectangle@2x.png" alt="красный квадратик" width="12" height="12" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" />
                             </td>
-                            <td align="left" style="Margin:0;">
+                            <td class="invitation-mobile-padding" align="left" style="Margin:0;">
                               <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:18px;font-family:'Trebuchet MS', tahoma, 'Helvetica CY', 'DejaVu Sans', sans-serif;line-height:21px;color:#FFFFFF;">Как устроиться в компанию после обучения?</p>
                             </td>
                           </tr>
@@ -293,7 +326,7 @@
                   </table>
 
                   <!-- блок о ведущем вебинара -->
-                  <table cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" border="0" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:568px;padding-top:30px;padding-bottom:24px;">
+                  <table cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" border="0" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:568px;padding-top:40px;padding-bottom:16px;">
                     <tr>
                       <td align="center" style="padding-bottom:24px;">
                         <h2 style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:24px;font-family:'Trebuchet MS', tahoma, 'Helvetica CY', 'DejaVu Sans', sans-serif;line-height:28px;color:#141414;"><b>Ведущий вебинара</b></h2>
@@ -322,10 +355,10 @@
                   </table>
 
                   <!-- блок в одну колонку о призах -->
-                  <table cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:568px;">
+                  <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" class="content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:568px;">
                     <tr>
                       <td align="center" style="padding-bottom:16px;">
-                        <img class="adaptive-img" src="https://raw.githubusercontent.com/Svetlana-K-design/169785-play-html-1/module2-task2/1-invitation/img/second-image@2x.png" alt="Ещё одна симпатичная картинка с мультяшными человечками с гаджетами" width="278" height="278" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" />
+                        <img class="adaptive-img-second" src="https://raw.githubusercontent.com/Svetlana-K-design/169785-play-html-1/module2-task2/1-invitation/img/second-image@2x.png" alt="Ещё одна симпатичная картинка с мультяшными человечками с гаджетами" width="278" height="278" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" />
                       </td>
                     </tr>
                     <tr>
